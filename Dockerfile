@@ -10,3 +10,6 @@ ADD slate/Gemfile.lock /app/Gemfile.lock
 RUN cd /app; bundle install
 
 WORKDIR /app
+
+CMD ["/bin/bash"]
+ENTRYPOINT []
